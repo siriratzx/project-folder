@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Mali&display=swap');
+body{
+    font-family: "mali", cursive;
+    text-align: center;
+}
+h1.title{
+    font-family:"Mali", cursive;;
+    color: rgb(3, 47, 91);
+    margin: 50px;
+}
+
+.info{
+    text-align: left;
+    color: #112054;
+    margin: 5px;
+    background-color: #f0f4ff;
+    border: 2px solid #0c2375; 
+    border-radius: 20px;
+    padding: 20px; 
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+.link{
+    background-color: hsl(223, 72%, 94%);
+    border: 2px solid #201dc4; 
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.img img {
+    width: 200px; 
+    height: auto;
+    border-radius: 10px;
+    margin: 5px;
+}
+.student-info {
+    text-align: left; 
+    display: inline-block;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-size: 14px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #d9ebff;
+  color: #000;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f6faff;
+}
